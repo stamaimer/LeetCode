@@ -35,7 +35,7 @@ class Solution(object):
 
             for binary_b in binaries[i + 1:]:
 
-                result += [int(a) ^ int(b) for a, b in zip(binary_a, binary_b)]
+                result += [int(a) ^ int(b) for a, b in zip(binary_a, binary_b)].count(1)
 
         return result
 
