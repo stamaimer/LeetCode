@@ -61,4 +61,4 @@ if __name__ == '__main__':
 
     node_1.left = node_2
 
-    Solution().minDepth(node_1)
+    Solution().maxDepth(node_1)
