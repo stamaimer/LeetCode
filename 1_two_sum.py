@@ -21,4 +21,3 @@ class Solution(object):
         else:
 
             excepted_index[target - num] = idx
-
